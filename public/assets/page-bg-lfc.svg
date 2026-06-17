@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <defs>
+    <radialGradient id="r1" cx="50%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#c8102e" stop-opacity=".42"/>
+      <stop offset=".45" stop-color="#740015" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#050104" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#180005"/>
+      <stop offset=".45" stop-color="#060103"/>
+      <stop offset="1" stop-color="#100004"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#g)"/>
+  <rect width="1800" height="1200" fill="url(#r1)"/>
+  <g opacity=".14" fill="#f7c243">
+    <circle cx="140" cy="120" r="2"/><circle cx="260" cy="420" r="2"/><circle cx="520" cy="160" r="2"/>
+    <circle cx="760" cy="330" r="2"/><circle cx="1040" cy="190" r="2"/><circle cx="1260" cy="510" r="2"/>
+    <circle cx="1500" cy="250" r="2"/><circle cx="1660" cy="610" r="2"/><circle cx="380" cy="820" r="2"/>
+    <circle cx="890" cy="950" r="2"/><circle cx="1390" cy="900" r="2"/>
+  </g>
+  <text x="900" y="1045" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="170" fill="#ffffff" opacity=".035">YOU'LL NEVER WALK ALONE</text>
+</svg>

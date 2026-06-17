@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="820" viewBox="0 0 1800 820">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a0008"/>
+      <stop offset=".45" stop-color="#7b0018"/>
+      <stop offset="1" stop-color="#0b0104"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="67%" cy="45%" r="52%">
+      <stop offset="0" stop-color="#f7c243" stop-opacity=".56"/>
+      <stop offset=".38" stop-color="#c8102e" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset=".38" stop-color="#f7c243"/>
+      <stop offset="1" stop-color="#98620f"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="820" fill="url(#sky)"/>
+  <rect width="1800" height="820" fill="url(#glow)"/>
+
+  <!-- stadium / Anfield inspired roof -->
+  <g opacity=".62" stroke="#1a0105" stroke-width="6" fill="none">
+    <path d="M650 155 L1710 40 L1600 180 L720 260 Z" fill="#25050a" opacity=".78"/>
+    <path d="M700 170 L1660 66"/>
+    <path d="M760 205 L1578 97"/>
+    <path d="M850 235 L1486 125"/>
+    <path d="M962 245 L1360 150"/>
+    <path d="M680 155 L710 260"/>
+    <path d="M830 138 L860 246"/>
+    <path d="M1000 120 L1025 248"/>
+    <path d="M1200 100 L1216 225"/>
+    <path d="M1430 72 L1415 190"/>
+  </g>
+  <g opacity=".22">
+    <rect x="660" y="250" width="1000" height="290" fill="#080204"/>
+    <path d="M660 300h1000M660 350h1000M660 400h1000M660 450h1000M660 500h1000" stroke="#c8102e" stroke-width="4"/>
+    <path d="M700 250v290M790 250v290M880 250v290M970 250v290M1060 250v290M1150 250v290M1240 250v290M1330 250v290M1420 250v290M1510 250v290M1600 250v290" stroke="#f7c243" stroke-width="2"/>
+  </g>
+
+  <!-- crowd red glow -->
+  <g opacity=".52">
+    <path d="M0 620 C260 540 490 570 735 630 C960 680 1180 650 1430 590 C1600 550 1720 580 1800 610 L1800 820 L0 820 Z" fill="#110205"/>
+    <path d="M0 650 C300 575 545 610 805 665 C1040 710 1240 675 1480 620 C1640 590 1745 615 1800 640" fill="none" stroke="#c8102e" stroke-width="10" opacity=".48"/>
+    <path d="M0 708 C320 630 560 660 810 720 C1050 760 1250 735 1490 675 C1640 640 1755 668 1800 690" fill="none" stroke="#f7c243" stroke-width="4" opacity=".32"/>
+  </g>
+
+  <!-- giant 50 -->
+  <g transform="translate(790 120)" filter="url(#shadow)">
+    <text x="0" y="430" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="560" fill="url(#gold)" stroke="#5c3308" stroke-width="14">50</text>
+    <text x="312" y="255" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="86" fill="#710014" opacity=".72">LFC</text>
+    <text x="310" y="337" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="70" fill="#710014" opacity=".72">YNWA</text>
+  </g>
+
+  <!-- left badge placeholder area / motto -->
+  <g transform="translate(86 70)" filter="url(#shadow)">
+    <rect x="0" y="0" width="430" height="560" rx="34" fill="rgba(255,255,255,.10)" stroke="#f7c243" stroke-width="3"/>
+    <text x="215" y="72" text-anchor="middle" font-family="Arial Black, Arial" font-size="28" font-weight="900" fill="#f7c243" letter-spacing="4">YNWA</text>
+    <text x="215" y="122" text-anchor="middle" font-family="Arial Black, Arial" font-size="36" font-weight="900" fill="#ffffff">PATRICK'S</text>
+    <text x="215" y="198" text-anchor="middle" font-family="Arial Black, Arial" font-size="92" font-weight="900" fill="url(#gold)">50TH</text>
+    <text x="215" y="254" text-anchor="middle" font-family="Arial Black, Arial" font-size="38" font-weight="900" fill="#ffffff">BIRTHDAY</text>
+    <path d="M75 326 H355" stroke="#f7c243" stroke-width="5"/>
+    <text x="215" y="390" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="900" fill="#f7c243">You'll Never</text>
+    <text x="215" y="432" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="900" fill="#f7c243">Walk Alone</text>
+    <text x="215" y="504" text-anchor="middle" font-family="Arial Black, Arial" font-size="30" font-weight="900" fill="#00a398">ANFIELD SOUND</text>
+  </g>
+
+  <!-- subtle LFC bird-like monogram (not official crest) -->
+  <g transform="translate(1450 260)" opacity=".16" fill="#ffffff">
+    <path d="M70 0c45 35 78 76 92 126 15 54 3 104-31 151 9-58-6-103-42-136 4 67-25 116-80 148 31-54 30-112-4-174-20 52-54 86-101 102 43-44 67-94 70-150-29 21-64 33-105 36 55-30 99-64 132-103z"/>
+  </g>
+
+  <g fill="#f7c243" opacity=".8">
+    <circle cx="720" cy="650" r="6"/><circle cx="795" cy="690" r="5"/><circle cx="880" cy="640" r="4"/>
+    <circle cx="1220" cy="705" r="5"/><circle cx="1320" cy="660" r="6"/><circle cx="1545" cy="700" r="4"/>
+  </g>
+</svg>

@@ -1,11 +1,16 @@
 {
-  "name": "QR-Bestellung",
-  "short_name": "Bestellungen",
+  "name": "Patrick's 50th",
+  "short_name": "YNWA",
   "start_url": "dashboard.html",
   "display": "standalone",
-  "background_color": "#0f1220",
-  "theme_color": "#0f1220",
+  "background_color": "#080103",
+  "theme_color": "#8b0018",
   "icons": [
-    { "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }

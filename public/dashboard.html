@@ -3,42 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#08070b">
-  <title>Dashboard</title>
+  <meta name="theme-color" content="#8b0018">
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="/styles.css">
+  <title>Küchen-Dashboard</title>
 </head>
 <body>
-  <main class="shell">
-    <div class="topbar">
-      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant></span></div>
-      <button class="icon-btn" id="enableSound" title="Ton aktivieren">🔔</button>
-    </div>
-
-    <section class="hero dashboard-hero" data-big="50">
-      <p class="kicker">Live Dashboard</p>
-      <h1>Bestellungen</h1>
-      <p data-title></p>
-      <div class="badge-row">
-        <span class="badge" id="openCount">0 offen</span>
-        <span class="badge">⚡ Echtzeit</span>
+  <main class="dash-shell">
+    <header class="dash-header">
+      <img src="/assets/liverpool-logo.png" onerror="this.style.display='none'" alt="Liverpool FC">
+      <div><h1>Küchen-Dashboard</h1><p>Live Bestellungen</p></div>
+      <button id="enableSound" class="sound-btn">🔔 Ton</button>
+      <div class="total-box"><small>Gesamt</small><strong id="totalItemCount">0</strong><span>Artikel</span></div>
+    </header>
+    <nav class="dash-tabs"><span class="active">Offene Bestellungen</span><span>Gesamtübersicht</span></nav>
+    <section class="dashboard-grid">
+      <div class="dash-card">
+        <div id="empty" class="empty">Noch keine offenen Bestellungen.</div>
+        <div id="orders" class="orders"></div>
       </div>
-    </section>
-
-    <section class="card">
-      <div class="card-head"><h2>Offene Bestellungen</h2><span class="pill">Neu oben</span></div>
-      <div id="empty" class="empty">Noch keine offenen Bestellungen.</div>
-      <div id="orders" class="orders"></div>
-    </section>
-  
-    <section class="card">
-      <div class="card-head">
+      <aside class="dash-card counter-card">
         <h2>📊 Gesamtübersicht</h2>
-        <span class="pill" id="totalItemCount">0 Artikel</span>
-      </div>
-      <div id="counterEmpty" class="empty">Noch keine Artikel bestellt.</div>
-      <div id="itemCounter" class="counter-list"></div>
+        <div id="counterEmpty" class="empty">Noch keine Artikel bestellt.</div>
+        <div id="itemCounter" class="counter-list"></div>
+      </aside>
     </section>
-
+    <footer class="ynwa-footer">⚜ You’ll Never Walk Alone ⚜</footer>
   </main>
   <script src="/app.js"></script>
   <script>app.initDashboard()</script>

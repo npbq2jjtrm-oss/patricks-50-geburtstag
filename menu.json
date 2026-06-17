@@ -1,8 +1,8 @@
 {
-  "restaurantName": "50. Geburtstag",
-  "eventTitle": "Happy Birthday Patrick",
-  "eventName": "Patricks 50. Geburtstag",
-  "eventSubtitle": "Bestell dir, worauf du Lust hast – wir bringen's an den Tisch 🍾",
+  "restaurantName": "Patrick's 50th",
+  "eventTitle": "Patrick's 50th Birthday",
+  "eventName": "Patrick's 50th Birthday – YNWA Edition",
+  "eventSubtitle": "Bestell dir, worauf du Lust hast – und wünsch dir deinen Anfield-Sound 🎵",
   "bigNumber": "50",
   "currency": "EUR",
   "drinks": [
@@ -24,6 +24,11 @@
     {
       "id": "apfelschorle",
       "name": "Apfelschorle 0,4l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "weinschorle",
+      "name": "Weinschorle 0,4l",
       "price": "zahlt Patrick"
     },
     {
@@ -84,6 +89,17 @@
       "price": "zahlt Patrick"
     }
   ],
-  "backgroundImage": "/assets/page-bg.svg",
-  "heroImage": "/assets/hero-birthday.svg"
+  "backgroundImage": "/assets/ynwa-bg.svg",
+  "heroImage": "/assets/ynwa-hero.svg",
+  "theme": "liverpool",
+  "musicOptions": [
+    "Kein Musikwunsch",
+    "Hits der 90er",
+    "Summer Hits",
+    "You’ll Never Walk Alone",
+    "Liverpool / Stadion-Hymnen",
+    "Party Klassiker",
+    "Rock Klassiker",
+    "Eigener Wunsch"
+  ]
 }

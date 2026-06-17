@@ -3,46 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#08070b">
+  <meta name="theme-color" content="#8b0018">
   <title>Bestellen</title>
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="shell">
-    <div class="topbar">
-      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant>50. Geburtstag</span></div>
-      <span class="table-pill">🪑 Tisch <b data-table></b></span>
-    </div>
+  <main class="clean-shell">
+    <header class="clean-topbar">
+      <div class="clean-brand">🎁 <strong data-restaurant>Patrick's 50th</strong></div>
+      <div class="clean-table">🪑 Tisch <b data-table></b></div>
+    </header>
 
-    <section class="hero split-hero" data-big="50">
-      <div class="hero-copy">
-        <p class="kicker">Herzlich Willkommen</p>
-        <h1><span>Happy Birthday</span><em>Patrick</em></h1>
-        <p class="subtitle"><span data-subtitle></span></p>
-        <div class="badge-row">
-          <span class="badge">🍽️ Essen</span>
-          <span class="badge">🍻 Getränke</span>
-          <span class="badge">🎁 zahlt Patrick</span>
+    <section class="clean-hero">
+      <div class="clean-hero-left">
+        <div class="clean-logo-row">
+          <img src="/assets/liverpool-logo.png" alt="Liverpool FC" onerror="this.style.display='none'">
+          <div>
+            <div class="clean-ynwa">YNWA</div>
+            <div class="clean-ynwa-sub">YOU’LL NEVER WALK ALONE</div>
+          </div>
+        </div>
+
+        <p class="clean-kicker">Herzlich Willkommen</p>
+        <h1 class="clean-title">
+          <span>Happy Birthday</span>
+          <em>Patrick!</em>
+        </h1>
+        <p class="clean-subtitle" data-subtitle></p>
+
+        <div class="clean-actions">
+          <a href="#food">🍽️ Essen</a>
+          <a href="#drinks">🥤 Getränke</a>
+          <a href="#musicSection">🎵 Musikwunsch</a>
+          <span>🎁 zahlt Patrick</span>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true"></div>
+
+      <div class="clean-hero-right" aria-hidden="true">
+        <div class="clean-big50">50</div>
+        <div class="clean-badge">Happy Birthday</div>
+      </div>
     </section>
 
-    <div id="menu"></div>
-
-    <section class="sticky-bar">
-      <div class="summary-line">
-        <span id="count">Noch nichts ausgewählt</span>
-        <span id="miniTotal">🎉 Einladung</span>
+    <section class="menu-card clean-music-card" id="musicSection">
+      <div class="card-head">
+        <h2>🎵 Musikwunsch</h2>
+        <span class="pill">optional</span>
       </div>
+      <div class="clean-music-inner">
+        <label for="musicSelect">Musikwunsch auswählen</label>
+        <select id="musicSelect"><option value="">Kein Musikwunsch</option></select>
+        <input id="musicCustom" type="text" placeholder="Eigener Musikwunsch, z.B. Oasis – Wonderwall" hidden>
+      </div>
+    </section>
+
+    <div id="menu" class="menu"></div>
+
+    <section class="checkout-bar">
+      <div class="summary-line"><span id="count">Noch nichts ausgewählt</span><span id="miniTotal">🎉 Einladung</span></div>
       <textarea id="note" rows="2" placeholder="Wunsch oder Hinweis, optional"></textarea>
-      <button class="primary" id="submit" type="button">🎉 Bestellung abschicken</button>
+      <button class="primary" id="submit" type="button">Bestellung abschicken →</button>
       <div class="status" id="status"></div>
     </section>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
   </main>
   <script src="/app.js"></script>
-  <script>app.initOrderPage().catch(err => document.body.innerHTML = '<main class="shell"><section class="card empty">'+err.message+'</section></main>')</script>
+  <script>app.initOrderPage().catch(err => document.body.innerHTML = '<main class="clean-shell"><section class="menu-card empty">'+err.message+'</section></main>')</script>
 </body>
 </html>

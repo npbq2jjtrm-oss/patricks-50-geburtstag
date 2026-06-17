@@ -123,3 +123,131 @@ button:disabled { opacity: 0.5; }
 .note { background: var(--card-2); border-radius: 8px; padding: 8px 10px; margin-top: 8px; font-size: 14px; }
 
 a.link { color: var(--accent); }
+
+
+
+/* === FINAL LFC / YNWA OVERRIDE === */
+:root{
+  --bg-image:url('/assets/page-bg-lfc.svg') !important;
+  --hero-image:url('/assets/hero-lfc-50.svg') !important;
+  --lfc-red:#c8102e;
+  --lfc-dark:#080103;
+  --lfc-gold:#f7c243;
+  --lfc-teal:#00a398;
+  --ink:#fff7ef;
+  --gold:#f7c243;
+  --gold2:#ffe38a;
+  --pink:#ffd9d9;
+  --gold-line:rgba(247,194,67,.55);
+}
+
+.player-tags{display:none!important}
+
+body{
+  background:
+    radial-gradient(circle at 50% -12%,rgba(200,16,46,.35),transparent 32rem),
+    radial-gradient(circle at 92% 8%,rgba(0,163,152,.13),transparent 26rem),
+    linear-gradient(180deg,rgba(22,0,5,.78),rgba(4,0,2,.98)),
+    var(--bg-image),
+    #080103 !important;
+}
+
+body:after{
+  content:"YOU'LL NEVER WALK ALONE";
+  position:fixed;
+  left:-6vw;
+  right:-6vw;
+  bottom:5vh;
+  z-index:-1;
+  color:rgba(255,255,255,.038);
+  font-size:clamp(3rem,10vw,10rem);
+  font-weight:1000;
+  letter-spacing:-.06em;
+  text-align:center;
+  white-space:nowrap;
+  pointer-events:none;
+}
+
+.brand-emoji{background:linear-gradient(135deg,#c8102e,#f7c243)!important}
+
+.hero{
+  background:
+    linear-gradient(90deg,rgba(18,0,5,.94) 0%,rgba(18,0,5,.75) 31%,rgba(18,0,5,.18) 57%,rgba(18,0,5,.04) 100%),
+    var(--hero-image) !important;
+  background-size:cover!important;
+  background-position:center right!important;
+  border-color:rgba(247,194,67,.58)!important;
+}
+
+.split-hero{
+  min-height:clamp(520px,42vw,650px)!important;
+}
+
+.ynwa-lockup{
+  border-color:rgba(247,194,67,.42)!important;
+  background:linear-gradient(135deg,rgba(200,16,46,.26),rgba(255,255,255,.07))!important;
+}
+
+.hero h1 em{color:#ffe38a!important}
+
+.badge,.pill,.brand,.table-pill,.icon-btn{
+  background:linear-gradient(135deg,rgba(200,16,46,.45),rgba(255,255,255,.07))!important;
+  border-color:rgba(247,194,67,.30)!important;
+}
+
+.primary,.round,.counter-rank{
+  background:linear-gradient(135deg,#c8102e 0%,#9d001e 42%,#f7c243 100%)!important;
+  color:#fff7ef!important;
+  text-shadow:0 1px 0 rgba(0,0,0,.32);
+}
+
+.card,.sticky-bar,.link-card,.order{
+  background:linear-gradient(180deg,rgba(20,2,6,.86),rgba(7,1,3,.91))!important;
+  border-color:rgba(247,194,67,.25)!important;
+}
+
+.music-request select,
+.music-request select option,
+.music-request input{
+  color:#fff7ef!important;
+  background-color:#24060b!important;
+}
+
+.music-request select{
+  appearance:none;
+  -webkit-appearance:none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, #ffe38a 50%),
+    linear-gradient(135deg, #ffe38a 50%, transparent 50%),
+    linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,.05))!important;
+  background-position:calc(100% - 22px) 50%,calc(100% - 16px) 50%,0 0!important;
+  background-size:6px 6px,6px 6px,100% 100%!important;
+  background-repeat:no-repeat!important;
+  padding-right:46px!important;
+}
+
+.music-request select option{
+  color:#111!important;
+  background:#fff!important;
+}
+
+.music-note{
+  color:#fff7ef!important;
+  border:1px solid rgba(247,194,67,.36)!important;
+  background:rgba(200,16,46,.22)!important;
+}
+
+@media (max-width:820px){
+  .split-hero{
+    min-height:620px!important;
+    background:
+      linear-gradient(180deg,rgba(18,0,5,.06) 0%,rgba(18,0,5,.38) 42%,rgba(18,0,5,.95) 76%,rgba(18,0,5,.98) 100%),
+      var(--hero-image)!important;
+    background-position:center top!important;
+  }
+}
+
+@media (max-width:460px){
+  body:after{display:none!important}
+  .split-hero{min-height:590px!important}
+}

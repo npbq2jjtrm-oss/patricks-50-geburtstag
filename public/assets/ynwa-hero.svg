@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="860" viewBox="0 0 1800 860">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b0005"/><stop offset=".42" stop-color="#8c001d"/><stop offset="1" stop-color="#060103"/></linearGradient>
+<radialGradient id="glow" cx="58%" cy="38%" r="58%"><stop offset="0" stop-color="#f7c243" stop-opacity=".48"/><stop offset=".36" stop-color="#c8102e" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1a3"/><stop offset=".42" stop-color="#f7c243"/><stop offset="1" stop-color="#8f5d11"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".62"/></filter>
+</defs>
+<rect width="1800" height="860" fill="url(#sky)"/><rect width="1800" height="860" fill="url(#glow)"/>
+<g opacity=".65">
+<path d="M560 150 L1715 42 L1585 180 L640 265 Z" fill="#230409" stroke="#0a0103" stroke-width="7"/>
+<path d="M620 165 L1658 68M700 202 L1570 95M810 234 L1468 127M935 248 L1320 153" stroke="#c8102e" stroke-width="9" opacity=".62"/>
+<path d="M650 152 L680 262M830 135 L855 246M1010 116 L1030 246M1225 96 L1232 225M1460 70 L1435 190" stroke="#0a0103" stroke-width="5"/>
+</g>
+<g opacity=".23">
+<rect x="640" y="248" width="1035" height="310" fill="#070203"/>
+<path d="M640 300h1035M640 358h1035M640 416h1035M640 474h1035M640 532h1035" stroke="#c8102e" stroke-width="5"/>
+<path d="M705 248v310M805 248v310M905 248v310M1005 248v310M1105 248v310M1205 248v310M1305 248v310M1405 248v310M1505 248v310M1605 248v310" stroke="#f7c243" stroke-width="2"/>
+</g>
+<g opacity=".55">
+<path d="M0 620 C250 535 505 570 760 632 C990 685 1200 648 1440 590 C1600 552 1725 580 1800 615 L1800 860 L0 860 Z" fill="#100205"/>
+<path d="M0 654 C300 572 560 612 815 668 C1050 710 1250 675 1488 620 C1640 590 1755 618 1800 640" fill="none" stroke="#c8102e" stroke-width="10" opacity=".58"/>
+<path d="M0 710 C330 630 580 665 830 720 C1060 760 1265 735 1495 676 C1645 640 1755 670 1800 692" fill="none" stroke="#f7c243" stroke-width="4" opacity=".35"/>
+</g>
+<g transform="translate(725 118)" filter="url(#s)">
+<text x="0" y="430" font-family="Arial Black, Impact, sans-serif" font-size="570" font-weight="900" fill="url(#gold)" stroke="#5b3308" stroke-width="14">50</text>
+<text x="332" y="250" text-anchor="middle" font-family="Arial Black,Arial" font-size="84" fill="#710014" opacity=".75">LFC</text>
+<text x="332" y="336" text-anchor="middle" font-family="Arial Black,Arial" font-size="70" fill="#710014" opacity=".75">YNWA</text>
+</g>
+<g transform="translate(110 90)" filter="url(#s)">
+<rect x="0" y="0" width="420" height="540" rx="34" fill="rgba(255,255,255,.10)" stroke="#f7c243" stroke-width="3"/>
+<text x="210" y="76" text-anchor="middle" font-family="Arial Black,Arial" font-size="30" fill="#f7c243" font-weight="900" letter-spacing="4">YNWA</text>
+<text x="210" y="130" text-anchor="middle" font-family="Arial Black,Arial" font-size="36" fill="#fff" font-weight="900">PATRICK'S</text>
+<text x="210" y="210" text-anchor="middle" font-family="Arial Black,Arial" font-size="92" fill="url(#gold)" font-weight="900">50TH</text>
+<text x="210" y="270" text-anchor="middle" font-family="Arial Black,Arial" font-size="38" fill="#fff" font-weight="900">BIRTHDAY</text>
+<path d="M70 330h280" stroke="#f7c243" stroke-width="5"/>
+<text x="210" y="392" text-anchor="middle" font-family="Georgia,serif" font-size="35" fill="#f7c243" font-weight="900">You'll Never</text>
+<text x="210" y="436" text-anchor="middle" font-family="Georgia,serif" font-size="35" fill="#f7c243" font-weight="900">Walk Alone</text>
+<text x="210" y="505" text-anchor="middle" font-family="Arial Black,Arial" font-size="30" fill="#00a398" font-weight="900">ANFIELD SOUND</text>
+</g>
+<g transform="translate(1450 250)" opacity=".15" fill="#fff"><path d="M70 0c45 35 78 76 92 126 15 54 3 104-31 151 9-58-6-103-42-136 4 67-25 116-80 148 31-54 30-112-4-174-20 52-54 86-101 102 43-44 67-94 70-150-29 21-64 33-105 36 55-30 99-64 132-103z"/></g>
+<text x="900" y="795" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="900" fill="#f7c243">YOU'LL NEVER WALK ALONE</text>
+</svg>

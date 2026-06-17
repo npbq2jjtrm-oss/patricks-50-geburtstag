@@ -3,36 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#08070b">
-  <title>QR-Bestellung</title>
+  <meta name="theme-color" content="#8b0018">
+  <title>Patrick's 50th</title>
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="shell">
-    <div class="topbar">
-      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant>50. Geburtstag</span></div>
-    </div>
+  <main class="clean-shell">
+    <header class="clean-topbar">
+      <div class="clean-brand">🎁 <strong data-restaurant>Patrick's 50th</strong></div>
+    </header>
 
-    <section class="hero split-hero" data-big="50">
-      <div class="hero-copy">
-        <p class="kicker">Party Menü</p>
-        <h1><span>Happy Birthday</span><em>Patrick</em></h1>
-        <p class="subtitle" data-subtitle></p>
-        <div class="badge-row">
-          <span class="badge">✨ Smartphone optimiert</span>
-          <span class="badge">🥂 Live-Bestellung</span>
+    <section class="clean-hero">
+      <div class="clean-hero-left">
+        <div class="clean-logo-row">
+          <img src="/assets/liverpool-logo.png" alt="Liverpool FC" onerror="this.style.display='none'">
+          <div>
+            <div class="clean-ynwa">YNWA</div>
+            <div class="clean-ynwa-sub">YOU’LL NEVER WALK ALONE</div>
+          </div>
+        </div>
+        <p class="clean-kicker">Patrick's 50th Birthday</p>
+        <h1 class="clean-title"><span>Happy Birthday</span><em>Patrick!</em></h1>
+        <p class="clean-subtitle" data-subtitle></p>
+        <div class="clean-actions">
+          <a href="/order.html?table=1">🍽️ Bestellseite testen</a>
+          <a href="/dashboard.html">📋 Dashboard</a>
+          <a href="/qr.html">▦ QR-Codes</a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true"></div>
+      <div class="clean-hero-right" aria-hidden="true">
+        <div class="clean-big50">50</div>
+        <div class="clean-badge">You’ll Never Walk Alone</div>
+      </div>
     </section>
-
-    <nav class="grid-links">
-      <a class="link-card" href="/order.html?table=1"><strong>Bestellseite testen</strong><span>Gast-Ansicht auf dem Smartphone</span></a>
-      <a class="link-card" href="/dashboard.html"><strong>Dashboard öffnen</strong><span>Live-Bestellungen ansehen</span></a>
-      <a class="link-card" href="/qr.html"><strong>QR-Codes erstellen</strong><span>Tischcodes ausdrucken</span></a>
-    </nav>
   </main>
   <script src="/app.js"></script>
-  <script>app.getMenu().then(menu => { app.applyMenuText(menu); app.applyVisuals(menu); })</script>
+  <script>app.getMenu().then(menu => app.applyMenuText(menu))</script>
 </body>
 </html>

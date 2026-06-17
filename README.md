@@ -68,3 +68,19 @@ Diese Version enthält zusätzlich:
 ## Dashboard Bestell-Counter
 
 Das Dashboard zeigt zusätzlich eine Gesamtübersicht, welche Artikel seit dem Serverstart wie oft bestellt wurden. Erledigte Bestellungen bleiben in dieser Statistik erhalten.
+
+## Musikwunsch
+
+Die Bestellseite enthält jetzt einen Musikwunsch mit Dropdown und eigenem Freitext. Der Wunsch erscheint im Dashboard bei der Bestellung.
+
+## Design
+
+Das Design ist Liverpool-inspiriert in Rot, Gold und Weiß gestaltet. Es verwendet kein offizielles Vereinswappen.
+
+## YNWA Edition
+
+Diese Version enthält das vom Nutzer bereitgestellte Liverpool-Bild, YNWA-Elemente, Spieler-Tags und Musikwunsch-Auswahl.
+
+## Final Mockup Version
+
+LFC/YNWA Design, Musikwunsch als Teil der Bestellung, Dashboard-Musikwunsch-Anzeige und Weinschorle bei Getränke.

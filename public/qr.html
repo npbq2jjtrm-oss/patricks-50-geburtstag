@@ -3,32 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#08070b">
-  <title>QR-Codes</title>
+  <meta name="theme-color" content="#8b0018">
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="/styles.css">
+  <title>QR-Codes</title>
 </head>
 <body>
-  <main class="shell">
-    <div class="topbar no-print">
-      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant></span></div>
-    </div>
-
-    <section class="hero dashboard-hero no-print" data-big="50">
-      <p class="kicker">QR Generator</p>
-      <h1>QR-Codes</h1>
-      <p>Adresse eintragen, Anzahl Tische wählen und dann ausdrucken.</p>
-    </section>
-
-    <section class="card">
-      <div class="controls no-print">
+  <main class="dash-shell">
+    <header class="dash-header no-print">
+      <img src="/assets/liverpool-logo.png" onerror="this.style.display='none'" alt="Liverpool FC">
+      <div><h1>Patrick’s 50th Birthday</h1><p>Scanne den QR-Code deines Tisches</p></div>
+    </header>
+    <section class="dash-card no-print">
+      <div class="qr-controls">
         <input id="origin" placeholder="https://deine-adresse.onrender.com">
         <input id="tables" type="number" min="1" max="99" value="10">
         <button class="primary" id="makeQr">QR-Codes erzeugen</button>
         <button class="primary secondary" id="print">Drucken</button>
-        <p class="hint">Tipp: Nach dem Render-Deploy hier die öffentliche Adresse eintragen.</p>
       </div>
-      <div id="qrGrid" class="qr-grid"></div>
     </section>
+    <div id="qrGrid" class="qr-grid"></div>
+    <footer class="ynwa-footer no-print">⚜ You’ll Never Walk Alone ⚜</footer>
   </main>
   <script src="/app.js"></script>
   <script>app.initQr()</script>
