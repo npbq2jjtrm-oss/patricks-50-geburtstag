@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08070b">
+  <title>Bestellen</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant>50. Geburtstag</span></div>
+      <span class="table-pill">🪑 Tisch <b data-table></b></span>
+    </div>
+
+    <section class="hero split-hero" data-big="50">
+      <div class="hero-copy">
+        <p class="kicker">Herzlich Willkommen</p>
+        <h1><span>Happy Birthday</span><em>Patrick</em></h1>
+        <p class="subtitle"><span data-subtitle></span></p>
+        <div class="badge-row">
+          <span class="badge">🍽️ Essen</span>
+          <span class="badge">🍻 Getränke</span>
+          <span class="badge">🎁 zahlt Patrick</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+
+    <div id="menu"></div>
+
+    <section class="sticky-bar">
+      <div class="summary-line">
+        <span id="count">Noch nichts ausgewählt</span>
+        <span id="miniTotal">🎉 Einladung</span>
+      </div>
+      <textarea id="note" rows="2" placeholder="Wunsch oder Hinweis, optional"></textarea>
+      <button class="primary" id="submit" type="button">🎉 Bestellung abschicken</button>
+      <div class="status" id="status"></div>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </main>
+  <script src="/app.js"></script>
+  <script>app.initOrderPage().catch(err => document.body.innerHTML = '<main class="shell"><section class="card empty">'+err.message+'</section></main>')</script>
+</body>
+</html>

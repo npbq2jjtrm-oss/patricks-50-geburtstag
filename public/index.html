@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08070b">
+  <title>QR-Bestellung</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant>50. Geburtstag</span></div>
+    </div>
+
+    <section class="hero split-hero" data-big="50">
+      <div class="hero-copy">
+        <p class="kicker">Party Menü</p>
+        <h1><span>Happy Birthday</span><em>Patrick</em></h1>
+        <p class="subtitle" data-subtitle></p>
+        <div class="badge-row">
+          <span class="badge">✨ Smartphone optimiert</span>
+          <span class="badge">🥂 Live-Bestellung</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+
+    <nav class="grid-links">
+      <a class="link-card" href="/order.html?table=1"><strong>Bestellseite testen</strong><span>Gast-Ansicht auf dem Smartphone</span></a>
+      <a class="link-card" href="/dashboard.html"><strong>Dashboard öffnen</strong><span>Live-Bestellungen ansehen</span></a>
+      <a class="link-card" href="/qr.html"><strong>QR-Codes erstellen</strong><span>Tischcodes ausdrucken</span></a>
+    </nav>
+  </main>
+  <script src="/app.js"></script>
+  <script>app.getMenu().then(menu => { app.applyMenuText(menu); app.applyVisuals(menu); })</script>
+</body>
+</html>

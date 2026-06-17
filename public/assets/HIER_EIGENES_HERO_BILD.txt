@@ -1,0 +1,4 @@
+Wenn du ein echtes Foto/Bild verwenden willst:
+1. Bild hier speichern, z.B. public/assets/patrick50.jpg
+2. In menu.json ändern: "heroImage": "/assets/patrick50.jpg"
+Das Bild erscheint dann rechts/im freien Bereich der Hero-Box.

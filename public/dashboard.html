@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08070b">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <div class="topbar">
+      <div class="brand"><span class="brand-emoji">🥤</span><span data-restaurant></span></div>
+      <button class="icon-btn" id="enableSound" title="Ton aktivieren">🔔</button>
+    </div>
+
+    <section class="hero dashboard-hero" data-big="50">
+      <p class="kicker">Live Dashboard</p>
+      <h1>Bestellungen</h1>
+      <p data-title></p>
+      <div class="badge-row">
+        <span class="badge" id="openCount">0 offen</span>
+        <span class="badge">⚡ Echtzeit</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head"><h2>Offene Bestellungen</h2><span class="pill">Neu oben</span></div>
+      <div id="empty" class="empty">Noch keine offenen Bestellungen.</div>
+      <div id="orders" class="orders"></div>
+    </section>
+  
+    <section class="card">
+      <div class="card-head">
+        <h2>📊 Gesamtübersicht</h2>
+        <span class="pill" id="totalItemCount">0 Artikel</span>
+      </div>
+      <div id="counterEmpty" class="empty">Noch keine Artikel bestellt.</div>
+      <div id="itemCounter" class="counter-list"></div>
+    </section>
+
+  </main>
+  <script src="/app.js"></script>
+  <script>app.initDashboard()</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "QR-Bestellung",
+  "short_name": "Bestellungen",
+  "start_url": "dashboard.html",
+  "display": "standalone",
+  "background_color": "#0f1220",
+  "theme_color": "#0f1220",
+  "icons": [
+    { "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

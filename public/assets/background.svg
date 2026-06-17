@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12070d"/>
+      <stop offset="0.45" stop-color="#30151f"/>
+      <stop offset="1" stop-color="#08070b"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="35%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#f7c85b" stop-opacity=".75"/>
+      <stop offset=".45" stop-color="#f7c85b" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#f7c85b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose" cx="80%" cy="10%" r="55%">
+      <stop offset="0" stop-color="#ff5f8f" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff5f8f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="2400" fill="url(#g)"/>
+  <rect width="1600" height="2400" fill="url(#gold)"/>
+  <rect width="1600" height="2400" fill="url(#rose)"/>
+  <g opacity=".24" fill="#fff0a5">
+    <circle cx="160" cy="180" r="5"/><circle cx="320" cy="420" r="4"/><circle cx="500" cy="250" r="7"/>
+    <circle cx="710" cy="510" r="5"/><circle cx="980" cy="190" r="6"/><circle cx="1260" cy="360" r="5"/>
+    <circle cx="1430" cy="650" r="7"/><circle cx="230" cy="820" r="6"/><circle cx="640" cy="930" r="4"/>
+    <circle cx="1110" cy="840" r="5"/><circle cx="1360" cy="1130" r="6"/><circle cx="360" cy="1290" r="5"/>
+    <circle cx="760" cy="1510" r="7"/><circle cx="1200" cy="1440" r="5"/><circle cx="1470" cy="1780" r="6"/>
+    <circle cx="180" cy="1940" r="7"/><circle cx="590" cy="2110" r="5"/><circle cx="1030" cy="2050" r="6"/>
+  </g>
+  <text x="800" y="1020" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="420" fill="#ffffff" opacity=".09">50</text>
+  <text x="800" y="1165" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="92" fill="#fff0a5" opacity=".55">Happy Birthday</text>
+</svg>

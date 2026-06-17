@@ -1,0 +1,2 @@
+Eigenes Hintergrundbild hier ablegen, z.B. public/assets/patrick50.jpg.
+Dann in menu.json ändern: "backgroundImage": "/assets/patrick50.jpg"

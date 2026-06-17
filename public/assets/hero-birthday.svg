@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b080c"/>
+      <stop offset=".45" stop-color="#201018"/>
+      <stop offset="1" stop-color="#0a070b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="67%" cy="49%" r="50%">
+      <stop offset="0" stop-color="#ffc957" stop-opacity=".75"/>
+      <stop offset=".38" stop-color="#f6b938" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#f6b938" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect width="1600" height="650" fill="url(#bg)"/>
+  <rect width="1600" height="650" fill="url(#glow)"/>
+
+  <g opacity=".85">
+    <circle cx="760" cy="180" r="72" fill="#9c6b3c"/>
+    <ellipse cx="760" cy="105" rx="62" ry="82" fill="#d19a58"/>
+    <path d="M760 186c-24 72-32 142-20 205" stroke="#b87936" stroke-width="5" fill="none"/>
+
+    <circle cx="1430" cy="210" r="90" fill="#af5370"/>
+    <ellipse cx="1430" cy="110" rx="78" ry="105" fill="#e083a2"/>
+    <path d="M1430 304c20 70 8 140-28 215" stroke="#e083a2" stroke-width="5" fill="none"/>
+
+    <circle cx="1040" cy="160" r="54" fill="#8c6435"/>
+    <ellipse cx="1040" cy="80" rx="52" ry="72" fill="#c6914b"/>
+    <path d="M1040 146c-2 60 10 116 42 166" stroke="#c6914b" stroke-width="4" fill="none"/>
+  </g>
+
+  <g transform="translate(850 80)" fill="none" stroke="#ffc957" stroke-width="24" stroke-linejoin="round" opacity=".98">
+    <path d="M30 30h210v86H112l-10 70q40-24 92-14q74 14 96 80q20 66-22 119q-46 58-136 58q-72 0-122-36l46-82q34 24 78 24q38 0 58-18q20-18 17-44q-3-29-29-42q-34-16-112 10l-60-37z"/>
+    <path d="M430 28q112 0 112 200q0 202-112 202q-112 0-112-202q0-200 112-200zm0 92q-30 0-30 108q0 110 30 110q30 0 30-110q0-108-30-108z"/>
+  </g>
+  <g transform="translate(850 80)" fill="none" stroke="#7a4213" stroke-width="6" stroke-linejoin="round" opacity=".45">
+    <path d="M30 30h210v86H112l-10 70q40-24 92-14q74 14 96 80q20 66-22 119q-46 58-136 58q-72 0-122-36l46-82q34 24 78 24q38 0 58-18q20-18 17-44q-3-29-29-42q-34-16-112 10l-60-37z"/>
+    <path d="M430 28q112 0 112 200q0 202-112 202q-112 0-112-202q0-200 112-200zm0 92q-30 0-30 108q0 110 30 110q30 0 30-110q0-108-30-108z"/>
+  </g>
+
+  <g transform="translate(1080 395)">
+    <ellipse cx="170" cy="130" rx="178" ry="34" fill="#090609" opacity=".65"/>
+    <rect x="64" y="38" width="212" height="105" rx="30" fill="#1c1214"/>
+    <ellipse cx="170" cy="40" rx="106" ry="36" fill="#34211c"/>
+    <ellipse cx="170" cy="38" rx="94" ry="25" fill="#090609"/>
+    <g fill="#f6b938" opacity=".78">
+      <circle cx="88" cy="78" r="4"/><circle cx="118" cy="103" r="5"/><circle cx="156" cy="81" r="4"/>
+      <circle cx="198" cy="116" r="5"/><circle cx="240" cy="84" r="4"/><circle cx="258" cy="125" r="5"/>
+    </g>
+    <text x="170" y="25" fill="#ffc957" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-weight="700">Happy</text>
+    <text x="170" y="65" fill="#ffc957" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-weight="700">Birthday</text>
+  </g>
+
+  <g opacity=".9">
+    <path d="M610 120c45 18 80 18 126-2" stroke="#ff7fa9" stroke-width="10" fill="none"/>
+    <path d="M1320 120c52 20 86 18 130-4" stroke="#ff7fa9" stroke-width="10" fill="none"/>
+    <path d="M620 500c90-35 170-24 235 0" stroke="#f6b938" stroke-width="10" fill="none" opacity=".4"/>
+  </g>
+
+  <g fill="#f6b938" opacity=".75">
+    <circle cx="640" cy="530" r="5"/><circle cx="700" cy="505" r="4"/><circle cx="820" cy="548" r="6"/>
+    <circle cx="955" cy="520" r="5"/><circle cx="1035" cy="560" r="4"/><circle cx="1380" cy="520" r="5"/>
+  </g>
+  <g fill="#ff7fa9" opacity=".75">
+    <rect x="740" y="540" width="12" height="12" transform="rotate(25 746 546)"/>
+    <rect x="910" y="500" width="10" height="10" transform="rotate(35 915 505)"/>
+    <rect x="1300" y="545" width="13" height="13" transform="rotate(25 1306 551)"/>
+  </g>
+</svg>
