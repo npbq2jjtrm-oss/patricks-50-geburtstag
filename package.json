@@ -1,0 +1,16 @@
+{
+  "name": "qr-bestellung",
+  "version": "1.0.0",
+  "description": "QR-Tischbestellung: Kunden scannen einen QR-Code, bestellen Getraenke/Essen, Bestellung erscheint live auf dem Besitzer-Dashboard.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

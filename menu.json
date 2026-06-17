@@ -1,0 +1,89 @@
+{
+  "restaurantName": "50. Geburtstag",
+  "eventTitle": "Happy Birthday Patrick",
+  "eventName": "Patricks 50. Geburtstag",
+  "eventSubtitle": "Bestell dir, worauf du Lust hast – wir bringen's an den Tisch 🍾",
+  "bigNumber": "50",
+  "currency": "EUR",
+  "drinks": [
+    {
+      "id": "cola",
+      "name": "Cola 0,33l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "fanta",
+      "name": "Fanta 0,33l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "wasser",
+      "name": "Mineralwasser 0,5l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "apfelschorle",
+      "name": "Apfelschorle 0,4l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "bier",
+      "name": "Bier 0,5l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "weizen",
+      "name": "Weizenbier 0,5l",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "kaffee",
+      "name": "Kaffee",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "tee",
+      "name": "Tee",
+      "price": "zahlt Patrick"
+    }
+  ],
+  "food": [
+    {
+      "id": "pommes",
+      "name": "Puten Steak (Paprika)",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "currywurst",
+      "name": "Puten Steak (Curry)",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "schnitzel",
+      "name": "Schweine Steak (Paprika)",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "burger",
+      "name": "Rote Wurst",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "pizza",
+      "name": "Hähnchen (scharf)",
+      "price": "zahlt Patrick"
+    },
+    {
+      "id": "suppe",
+      "name": "Gillkäse Haloumi",
+      "price": "zahlt Patrick"
+    }
+  ],
+  "backgroundImage": "/assets/page-bg.svg",
+  "heroImage": "/assets/hero-birthday.svg"
+}
